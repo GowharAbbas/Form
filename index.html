@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+    
+            <label for="firstname">Firstname</label>
+            <input id="firstname" type="text">
+            <br>
+            <br>
+            <label for="middlename">Middlename</label>
+            <input id="middlename" type="text">
+            <br>
+            <br>
+            <label for="lastname">Lastname</label>
+            <input id="lastname" type="text">
+            <br>
+            <br>
+            <label for="mylist">Course:</label>
+            
+        <select id="mylist" name="mylist">
+            <option value="" disabled selected>Course</option>
+            <option value="option1">BTech</option>
+            <option value="option2">MTech</option>
+            <option value="option3">BBA</option>
+            <option value="option4">MBA</option>
+            <option value="option5">MCA</option>
+        </select>
+            <br>
+            <p>Gender:<p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br>
+                <br>
+                <label for="dob">DOB</label>
+                <input id="dob" type="date">       
+                <table>
+                    <tr>
+                        <td>Phone:</td>
+                        <td style="border: 1px solid #ccc; padding: 5px; background-color: #f0f0f0;">+91</td>
+                        <td><input type="tel" placeholder="Enter phone number" style="border: 1px solid #ccc; padding: 5px; width: 100%;"></td>
+                    </tr>
+                </table>
+                <label for="txt">Address</label><br>
+                <textarea name="text" id="txt" rows="10" cols="50"></textarea>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input id="email" type="email"> 
+                <br>
+                <br>    
+                <label for="password">Password:</label>
+                <input id="password" type="password"> 
+                <br>
+                <br>
+                <label for="repass">Re-type password:</label>
+                <input id="repass" type="password"> 
+                <br>
+                <br>   
+                <input type="checkbox">Agree to terms and Conditions</input>
+                <br>
+                <br>
+                <label for="file">Choose File</label>
+                <input type="file">
+                <br>
+                <br>
+                <label for="color">Choose Colour</label>
+                <input type="color">
+                <br>
+                <br>
+                <button>Reset</button>
+                <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
